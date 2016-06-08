@@ -1,6 +1,6 @@
 # Thinkpad X1 Windows 10 Middle Mouse Button Issue
 
-The middle mouse button on Thinkpads can be used together with the TrackPointer to scroll windows without having to move the pointer to the scrollbar.  This is an awesome feature that has worked on Thinkpads with MS Windows for several years.
+The middle mouse button on Thinkpads can be used together with the TrackPoint:er to scroll windows without having to move the pointer to the scrollbar.  This is an awesome feature that has worked on Thinkpads with MS Windows for several years.
 
 ## Issue
 
@@ -40,7 +40,7 @@ Know problems with this fix:
 
 
 ### Workaround \#3 - Uninstall / Disable Cortana (unknown side effects)
-By disabling Cortana will avoid the problem while scrolling with TrackPoint and middle mouse button will still work.  Unforturtunately, it is not fully straightforward to disable Cortana.  The best I could find was [to uninstall Cortana or to make Windows not find it](https://superuser.com/questions/949569/can-i-completely-disable-cortana-on-windows-10).
+Disabling Cortana will avoid the problem while keeping middle mouse button scrolling still working.  Unforturtunately, it is not fully straightforward to disable Cortana.  The best I could find was [to uninstall Cortana or to make Windows not find it](https://superuser.com/questions/949569/can-i-completely-disable-cortana-on-windows-10).
 
 Know problems with this fix:
 * Windows logins using a Microsoft account no longer works.
@@ -48,7 +48,7 @@ Know problems with this fix:
 * Breaks the Windows 10 Start Menu and probably Search. Note: [Classic Shell](http://www.classicshell.net/) provides a very nice alternative Start Menu with Search.
 * ...?
 
-Since it's not clear to me what other problems there are by uninstalling Cortana, I personally prefer the `Win+<key>` workaround.
+Since it's not clear to me what other problems there are by uninstalling Cortana, I would not recommend this approach.
 
 
 ## Not a Workaround / Fix
