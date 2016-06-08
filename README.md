@@ -66,7 +66,7 @@ Using the [KeyCodes](http://delphiforfun.org/programs/utilities/KeyCodes.htm#Dow
 4. OnKeyUp Key code=83, Control keys=, Key name s
 5. OnKeyUp Key code=91, Control keys=, Key name Left Windows key (MS Natural Kb)
 
-This is seen when the `Win+<key>` feature is disabled in Windows (the above workaround).  Without the workaround, we will only see:
+This is seen when the `Win + <key>` feature is disabled in Windows (the above workaround).  Without the workaround, we will only see:
 
 1. OnKeyDown Key code=91, Control keys=, Key name Left Windows key (MS Natural Kb)
 2. OnKeyUp Key code=83, Control keys=, Key name s
