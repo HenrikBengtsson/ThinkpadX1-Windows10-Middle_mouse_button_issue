@@ -1,4 +1,4 @@
-_Please consider to Star this repository (requires an [GitHub account](https://github.com/join/)) if you find this information helpful. Then we can also get a sense on how common this problem is among Windows 10 users._
+_Please consider to Star this repository (requires an [GitHub account](https://github.com/join/)) if you find this information helpful. Even more helpful would be if you report your setup in an [Issue](https://github.com/HenrikBengtsson/ThinkpadX1-Windows10-Middle_mouse_button_issue/issues). Then we can also get a sense on how common this problem is among Windows 10 users._
 
 # Thinkpad X1 Windows 10 Middle Mouse Button Issue
 
@@ -76,4 +76,4 @@ This is seen when the `Win + <key>` feature is disabled in Windows (the above wo
 
 which is probably because the Explorer grabs the other two (and opens Cortana).
 
-I observed this with Windows 10 Pro (x64) with Synaptics ThinkPad UltraNav Driver 19.0.17.43 (2015-11-19).
+I observed this with Windows 10 Pro (x64) with Synaptics ThinkPad UltraNav Driver 19.0.17.43 (2015-11-19) on a Thinkpad X1 Carbon (2016) with BIOS N1FET38W (1.12).
