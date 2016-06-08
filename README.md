@@ -26,6 +26,7 @@ By disabling Cortana will avoid the problem while scrolling with TrackPoint and 
 Know problems with this fix:
 * Windows logins using a Microsoft account no longer works.
 * Windows Store won't work.
+* Breaks the Windows 10 Start Menu and probably Search. Note: [Classic Shell](http://www.classicshell.net/) provides a very nice alternative Start Menu with Search.
 * ...?
 
 Since it's not clear to me what other problems there are by uninstalling Cortana, I personally prefer the `Win+<key>` workaround.
