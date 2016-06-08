@@ -16,8 +16,8 @@ It turns out that the middle mouse button on Thinkpads sgenerates the equivalent
 * [Windows10-WinKey-enable.reg](https://raw.githubusercontent.com/HenrikBengtsson/ThinkpadX1-Windows10-Middle_mouse_button_issue/master/Windows10-WinKey-enable.reg?token=ABir0r7Kx-giYAzz7MvFDaE6GDepBGH_ks5XYQlFwA%3D%3D) - undo fix.
 
 Know problems with this fix:
+* [All `Win + <key>` actions](http://windows.microsoft.com/en-us/windows-10/keyboard-shortcuts) are suppressed in Windows, e.g. `Win + D` will no longer open the Desktop.
 * Pressing the middle mouse button while the cursor is over a text field / in an editor, will cause a (lower case) `s` to be typed.
-* All `Win + <key>` actions are suppressed in Windows, e.g. `Win + D` will no longer open the Desktop.
 
 
 ### Workaround \#2 - Uninstall / Disable Cortana
