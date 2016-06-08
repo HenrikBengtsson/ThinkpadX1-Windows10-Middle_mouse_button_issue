@@ -13,7 +13,7 @@ I know of the below three workarounds for solving this problem.  I highly recomm
 
 
 ### Workaround \#1 - Disable Win + S (recommended)
-It turns out that the middle mouse button on some Thinkpads generates the equivalent key presses as `Win + S`, which is also the sequence that opens Cortana on Windows 10.  I've created a AutoHotKey script that simply consumes this key sequence and sends it to nirvana.  Luckily, the scrolling works just fine anyways.  To apply this fix:
+It turns out that the middle mouse button on some Thinkpads generates the equivalent key presses as `Win + S`, which is also the sequence that opens Cortana on Windows 10.  I've created a AutoHotkey script that simply consumes this key sequence and sends it to nirvana.  Luckily, the scrolling works just fine anyways.  To apply this fix:
 
 1. Download and run [Windows10-WinS-disable.exe](https://github.com/HenrikBengtsson/ThinkpadX1-Windows10-Middle_mouse_button_issue/blob/master/Windows10-WinS-disable.exe?raw=true).  You should see it working immediately.
 
