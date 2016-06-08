@@ -1,0 +1,240 @@
+                                                                   Revision : 01
+--------------------------------------------------------------------------------
+Software name      Synaptics ThinkPad UltraNav Driver
+
+Support models     ThinkPad Helix
+                   ThinkPad Helix 2nd Gen (Machine types: 20CG, 20CH)
+                   ThinkPad S1 Yoga
+                   ThinkPad S430
+                   ThinkPad T420, T420i, T420s, T420si, T430, T430i,
+                            T430s, T430si, T431s, T440, T440p, T440s
+                   ThinkPad T530, T530i, T540p, T550
+                   ThinkPad Twist S230u
+                   ThinkPad Twist
+                   ThinkPad W530, W541,W550s
+                   ThinkPad X1, X1 Hybrid, X1 Carbon
+                   ThinkPad X1 Carbon (Machine types: 20A7, 20A8)
+                   ThinkPad X1 Carbon (Machine types: 20BS, 20BT)
+                   ThinkPad X1 Helix, X1 Helix 3G
+                   ThinkPad X220, X220i, X220i Tablet, X230, X230i,
+                            X230 Tablet, X230i Tablet, X230s,
+                            X240s, X240, X250
+
+Operating Systems  Microsoft Windows 10  32-bit, 64-bit
+
+                   Refer to marketing materials to find out what computer models
+                   support which Operating Systems.
+
+Version            19.0.17.27
+
+Support device     ThinkPad UltraNav Pointing Device
+
+
+--------------------------------------------------------------------------------
+WHAT THIS PACKAGE DOES
+
+  This package installs the software (ThinkPad UltraNav driver) to enable the
+  following device.
+
+  Device name                          Device name in the Device Manager
+  ---------------------------------    ---------------------------------
+  Synaptics Pointing Device            Synaptics Pointing Device
+
+  Refer to marketing materials to find out what computer models support which
+  devices.
+
+  If this package has been installed, updating (overwrite-installing) this
+  package will fix problems, add new functions, or expand functions as noted
+  below.
+
+  This program is language independent and can be used with any language system.
+
+
+--------------------------------------------------------------------------------
+CHANGES IN THIS RELEASE
+  Version 19.0.17.27
+
+[Important updates]
+  Nothing.
+
+[New functions or enhancements]
+  Nothing.
+
+[Problem fixes]
+- Removed button size option for touchpad.
+- Fixed an issue where mouse cursor became small after using trackpoing middle
+  scroll function.
+- Fixed an user interface text size was not aligned correctly.
+
+
+--------------------------------------------------------------------------------
+DETERMINING WHICH VERSION IS INSTALLED
+
+
+ [Windows 10]
+
+  [Mouse and Keyboard]
+  1. Hold down the Windows logo key and press X to open a menu at the lower-left
+     area of the screen.
+  2. Select Device Manager from the menu.
+  3. Double-click the Mice and other pointing devices category.
+  4. Double-click ThinkPad UltraNav Pointing Device.
+  5. Select the Driver tab.
+  6. Check Driver Version.
+
+  [Touch]
+  1. Press and hold the Start Button in the lower-left corner of the screen to
+     open a menu.
+  2. Select Device Manager from the menu.
+  3. Double-tap the Mice and other pointing devices category.
+  4. Double-tap ThinkPad UltraNav Pointing Device.
+  5. Select the Driver tab.
+  6. Check Driver Version.
+
+
+--------------------------------------------------------------------------------
+NOTES
+
+- The TrackPoint driver does not need to be installed on the UltraNav models.
+
+
+--------------------------------------------------------------------------------
+INSTALLATION INSTRUCTIONS
+
+Notes:
+- If your computer runs satisfactorily now, it may not be necessary to update
+  the software. To determine if you should update the software, refer to the
+  Version Information section.
+- Before update, uninstallation of current driver is recommended. Refer to the
+  Uninstallation Instructions section.
+
+
+Manual Install
+
+  This section assumes to use Internet Explorer and Windows Explorer.
+
+  Downloading file
+  1. Select the underlined file name. Once this is done, some pop-up windows
+     will appear.
+  2. Follow the instructions on the screen.
+  3. When the selection message of the Run or Save on the window, select Save.
+  4. The download will begin and complete.
+     Once the download has completed, there may or may not be a message stating
+     that the download completed successfully.
+
+  Extracting file
+  5. Make sure to be logged on with an administrator account.
+  6. Locate the folder where the file was downloaded.
+  7. Locate the file that was downloaded and double-click/double-tap it.
+  8. Follow the instructions on the screen.
+  9. In the Select Destination Location window, select Next. If you would like
+     to select a different folder, select Browse.
+ 10. In the Ready to Install window, select Install. All the necessary files
+     will be extracted to the folder selected in the step 9.
+
+  Installing files
+ 11. Make sure the checkbox next to "Install ..... now" is checked and select
+     Finish.
+ 12. Follow the instructions on the screen to complete installation and restart
+     the computer.
+
+  Finally delete the file saved in the step 4.
+
+
+Unattended Install
+
+  This is for system administrator's use only.
+
+  1. Refer to the Manual Install section, and download and extract the file.
+  2. In the step 11 of the Installing files section, uncheck the checkbox next
+     to "Install ..... now", and then select Finish to cancel installation.
+  3. At the command line, execute setup.exe with the -s -sms options.
+     Example: [Path where the files were extracted]\setup -s -sms
+
+
+--------------------------------------------------------------------------------
+UNINSTALLATION INSTRUCTIONS
+
+
+Manual Uninstall
+
+
+ [Windows 10 and later]
+
+  [Mouse and Keyboard]
+  1. Start Windows and logon with an administrator account.
+  2. Hold down the Windows logo key and press X to open a menu at the lower-left
+     area of the screen.
+  3. Select Programs and Features from the menu.
+  4. Select ThinkPad UltraNav Driver, and select Uninstall or Uninstall/Change.
+  5. Follow the instructions on the screen to complete uninstallation and
+     restart the computer.
+
+  [Touch]
+  1. Start Windows and logon with an administrator account.
+  2. Press and hold the Start Button in the lower-left corner of the screen to
+     open a menu.
+  3. Select Programs and Features from the menu.
+  4. Select ThinkPad UltraNav Driver, and select Uninstall or Uninstall/Change.
+  5. Follow the instructions on the screen to complete uninstallation and
+     restart the computer.
+
+
+--------------------------------------------------------------------------------
+VERSION INFORMATION
+
+  The following versions have been released to date.
+
+  Package       Rev.  Issue Date
+  ----------    ----  ----------
+  19.0.17.27    01    2015/12/22
+  19.0.17.2     01    2015/08/31
+  19.0.12.61    01    2015/07/29
+
+  Note: Revision number (Rev.) is for administrative purpose of this README
+        document and is not related to software version. There is no need to
+        upgrade this software when the revision number changes.
+
+  To check the version of software, refer to the Determining which version is
+  installed section.
+
+
+Summary of Changes
+
+  Where: <   >        Package version number
+         [Important]  Important update
+         (New)        New function or enhancement
+         (Fix)        Correction to existing function
+
+<19.0.17.27>
+- (Fix) Removed button size option for touchpad.
+- (Fix) Fixed issue where mouse cursor became small after the use trackpoing
+        middle scroll function.
+- (Fix) Fixed an user interface text size was not aligned correctly.
+
+<19.0.17.2>
+- (New) Added 3 finger gesture video
+- (Fix) Remove rotate gesture in User Interface
+- (Fix) Fixed possible Blue screen issue after wake from Sleep/Hibernate mode
+- (Fix) Fixed an issue where driver has a possiblity to uninstall incompletely.
+
+<19.0.12.61>
+- (New) Initial release for Windows 10.
+
+
+--------------------------------------------------------------------------------
+LIMITATIONS
+
+  Nothing.
+
+
+--------------------------------------------------------------------------------
+TRADEMARKS
+
+* Lenovo, ThinkPad, TrackPoint and UltraNav are registered trademarks of Lenovo.
+
+* Microsoft, Internet Explorer and Windows are registered trademarks of
+  Microsoft Corporation.
+
+Other company, product, and service names may be registered trademarks,
+trademarks or service marks of others.
