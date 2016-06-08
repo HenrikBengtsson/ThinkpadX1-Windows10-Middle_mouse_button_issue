@@ -20,16 +20,12 @@ Know problems with this fix:
 * All `Win + <key>` actions are suppressed in Windows, e.g. `Win + D` will no longer open the Desktop.
 
 
+### Workaround \#2 - Uninstall / Disable Cortana
+By disabling Cortana will avoid the problem while scrolling with TrackPoint and middle mouse button will still work.  Unforturtunately, it is not fully straightforward to disable Cortana.  The best I could find was [to uninstall Cortana or to make Windows not find it](https://superuser.com/questions/949569/can-i-completely-disable-cortana-on-windows-10).
 
+Know problems with this fix:
+* Windows logins using a Microsoft account no longer works.
+* Windows Store won't work.
+* ...?
 
-
-
-
-
-
-
-
-
-
-
-
+Since it's not clear to me what other problems there are by uninstalling Cortana, I personally prefer the `Win+<key>` workaround.
