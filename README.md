@@ -10,7 +10,7 @@ Unfortunately, this feature clashes with Windows 10 Cortana on my fresh Thinkpad
 ## Workarounds
 
 ### Workaround \#1 - Disable Win + \<key\>
-It turns out that the middle mouse button on Thinkpads [generates the equivalent key presses](http://delphiforfun.org/programs/utilities/KeyCodes.htm#Download) as `Win + S`, which is also the sequence that opens Cortana on Windows 10.  Fortunately, it is possible to [disable the `Win` in Explorer](http://www.isumsoft.com/it/disable-win-keyboard-shortcuts-in-windows-10/), but making a single edit to the Windows Registry.  I created two Windows Registry files that disables and enables (to undo the fix) for this:
+It turns out that the middle mouse button on Thinkpads sgenerates the equivalent key presses as `Win + S`, which is also the sequence that opens Cortana on Windows 10.  Fortunately, it is possible to [disable the `Win` in Explorer](http://www.isumsoft.com/it/disable-win-keyboard-shortcuts-in-windows-10/), but making a single edit to the Windows Registry.  I created two Windows Registry files that disables and enables (to undo the fix) for this:s
 
 * [Windows10-WinKey-disable.reg](https://raw.githubusercontent.com/HenrikBengtsson/ThinkpadX1-Windows10-Middle_mouse_button_issue/master/Windows10-WinKey-disable.reg?token=ABir0tylzqjty1TrRaEdStljO-9qDMciks5XYQi1wA%3D%3D) - right click and save with extension *.reg and doubleclick to apply fix.
 * [Windows10-WinKey-enable.reg](https://raw.githubusercontent.com/HenrikBengtsson/ThinkpadX1-Windows10-Middle_mouse_button_issue/master/Windows10-WinKey-enable.reg?token=ABir0r7Kx-giYAzz7MvFDaE6GDepBGH_ks5XYQlFwA%3D%3D) - undo fix.
@@ -30,3 +30,23 @@ Know problems with this fix:
 * ...?
 
 Since it's not clear to me what other problems there are by uninstalling Cortana, I personally prefer the `Win+<key>` workaround.
+
+
+## Troubleshooting
+Using the [KeyCodes](http://delphiforfun.org/programs/utilities/KeyCodes.htm#Download) software, I found that when I click the middle mouse button on my Thinkpad X1 Carbon (2016) the following key code sequence is generated:
+
+1. OnKeyDown Key code=91, Control keys=, Key name Left Windows key (MS Natural Kb)
+2. OnKeyDown Key code=83, Control keys=, Key name s
+3. OnKeyPress s
+4. OnKeyUp Key code=83, Control keys=, Key name s
+5. OnKeyUp Key code=91, Control keys=, Key name Left Windows key (MS Natural Kb)
+
+This is seen when the `Win+<key>` feature is disabled in Windows (the above workaround).  Without the workaround, we will only see:
+
+1. OnKeyDown Key code=91, Control keys=, Key name Left Windows key (MS Natural Kb)
+2. OnKeyUp Key code=83, Control keys=, Key name s
+3. OnKeyUp Key code=91, Control keys=, Key name Left Windows key (MS Natural Kb)
+
+which is probably because the Explorer grabs the other two (and opens Cortana).
+
+I observed this with Windows 10 Pro (x64) with Synaptics 19.0.17.43 (2015-11-19).
