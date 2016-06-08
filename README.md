@@ -21,7 +21,7 @@ To make this run each time Windows starts, add/drag it to Start menu -> All Prog
 
 Know problems with this fix:
 * `Win + S` for opening Cortana no longer works.
-* Fix does not work in Task Manager, i.e. Cortana pops up if scrolling (or pressing `Win + S`).
+* Fix does not work in Task Manager, i.e. Cortana still pops up if using middle mouse button scrolling in that window (or pressing `Win + S`).
 
 
 BTW, if you don't trust the above executable, you can compile it yourself from my [Windows10-WinS-disable.ahk](https://raw.githubusercontent.com/HenrikBengtsson/ThinkpadX1-Windows10-Middle_mouse_button_issue/master/Windows10-WinS-disable.ahk?token=ABir0oHYfPlL-13ADUXLfCxWDImbVB7Kks5XYR66wA%3D%3D) script using [AutoHotkey](https://www.autohotkey.com/).
