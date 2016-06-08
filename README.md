@@ -76,4 +76,6 @@ This is seen when the `Win + <key>` feature is disabled in Windows (the above wo
 
 which is probably because the Explorer grabs the other two (and opens Cortana).
 
-I observed this with Windows 10 Pro (x64) with Synaptics ThinkPad UltraNav Driver 19.0.17.43 (2015-11-19) on a Thinkpad X1 Carbon (2016) with BIOS N1FET38W (1.12).
+I observed this with Windows 10 Pro (x64) with Synaptics ThinkPad
+UltraNav Driver 19.0.17.43 (N1CGX17W; 2015-11-19) on a Thinkpad X1
+Carbon (2016) with BIOS 1.12 (N1FET38W).
