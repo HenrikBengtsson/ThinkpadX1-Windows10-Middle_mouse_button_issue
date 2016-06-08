@@ -9,6 +9,9 @@ Unfortunately, this feature clashes with Windows 10 Cortana on my fresh Thinkpad
 
 ## Workarounds
 
+I know of the below three workarounds for solving this problem.  I highly recommend the first one.
+
+
 ### Workaround \#1 - Disable Win + S (recommended)
 It turns out that the middle mouse button on some Thinkpads generates the equivalent key presses as `Win + S`, which is also the sequence that opens Cortana on Windows 10.  I've created a AutoHotKey script that simply consumes this key sequence and sends it to nirvana.  Luckily, the scrolling works just fine anyways.  To apply this fix:
 
