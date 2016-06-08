@@ -1,3 +1,5 @@
+_Please consider to Star this repository (requires an [GitHub account](https://github.com/join/)) if you find this information helpful. Then we can also get a sense on how common this problem is among Windows 10 users._
+
 # Thinkpad X1 Windows 10 Middle Mouse Button Issue
 
 The middle mouse button on Thinkpads can be used together with the TrackPoint:er to scroll windows without having to move the pointer to the scrollbar.  This is an awesome feature that has worked on Thinkpads with MS Windows for several years.
@@ -9,7 +11,7 @@ Unfortunately, this feature clashes with Windows 10 Cortana on my fresh Thinkpad
 
 ## Workarounds
 
-I know of the below three workarounds for solving this problem.  I highly recommend the first one.
+I know of the below three workarounds for solving this problem (and one invalid one).  I highly recommend the first one.
 
 
 ### Workaround \#1 - Disable Win + S (recommended)
