@@ -10,7 +10,7 @@ Unfortunately, this feature clashes with Windows 10 Cortana on my fresh Thinkpad
 ## Workaround
 
 ### Workaround \#1 - Disable Win + S (recommended)
-It turns out that the middle mouse button on Thinkpads generates the equivalent key presses as `Win + S`, which is also the sequence that opens Cortana on Windows 10.  I've created a AutoHotKey script that simply consumes this key sequence and sends it to nirvana.  Luckily, the scrolling works just fine anyways.  To apply this fix:
+It turns out that the middle mouse button on some Thinkpads generates the equivalent key presses as `Win + S`, which is also the sequence that opens Cortana on Windows 10.  I've created a AutoHotKey script that simply consumes this key sequence and sends it to nirvana.  Luckily, the scrolling works just fine anyways.  To apply this fix:
 
 1. Download and run [Windows10-WinS-disable.exe](https://github.com/HenrikBengtsson/ThinkpadX1-Windows10-Middle_mouse_button_issue/blob/master/Windows10-WinS-disable.exe?raw=true).  You should see it working immediately.
 
@@ -24,8 +24,8 @@ BTW, if you don't trust the above executable, you can compile it yourself from m
 
 
 
-### Workaround \#2 - Disable Win + \<key\> in Explorer
-It turns out that the middle mouse button on Thinkpads generates the equivalent key presses as `Win + S`, which is also the sequence that opens Cortana on Windows 10.  Fortunately, it is possible to [disable the `Win` in Explorer](http://www.isumsoft.com/it/disable-win-keyboard-shortcuts-in-windows-10/), but making a single edit to the Windows Registry.  I created two Windows Registry files that disables and enables (to undo the fix) for this:
+### Workaround \#2 - Disable Win + \<key\> in Explorer (alright)
+An alternative for preventing `Win + S` from opening Cortana on Windows 10 is to [disable the `Win` key in Explorer](http://www.isumsoft.com/it/disable-win-keyboard-shortcuts-in-windows-10/), which can be done by a single edit to the Windows Registry.  I created two Windows Registry files that disables and enables (to undo the fix) for this:
 
 * [Windows10-WinKey-disable.reg](https://raw.githubusercontent.com/HenrikBengtsson/ThinkpadX1-Windows10-Middle_mouse_button_issue/master/Windows10-WinKey-disable.reg?token=ABir0tylzqjty1TrRaEdStljO-9qDMciks5XYQi1wA%3D%3D) - right click and save with extension *.reg, doubleclick to apply fix, and restart Windows (required). 
 * [Windows10-WinKey-enable.reg](https://raw.githubusercontent.com/HenrikBengtsson/ThinkpadX1-Windows10-Middle_mouse_button_issue/master/Windows10-WinKey-enable.reg?token=ABir0r7Kx-giYAzz7MvFDaE6GDepBGH_ks5XYQlFwA%3D%3D) - undo fix.
@@ -35,7 +35,7 @@ Know problems with this fix:
 * Pressing the middle mouse button while the cursor is over a text field / in an editor, will cause a (lower case) `s` to be typed.
 
 
-### Workaround \#3 - Uninstall / Disable Cortana
+### Workaround \#3 - Uninstall / Disable Cortana (unknown side effects)
 By disabling Cortana will avoid the problem while scrolling with TrackPoint and middle mouse button will still work.  Unforturtunately, it is not fully straightforward to disable Cortana.  The best I could find was [to uninstall Cortana or to make Windows not find it](https://superuser.com/questions/949569/can-i-completely-disable-cortana-on-windows-10).
 
 Know problems with this fix:
