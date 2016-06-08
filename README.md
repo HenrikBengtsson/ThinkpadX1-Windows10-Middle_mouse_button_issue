@@ -32,6 +32,10 @@ Know problems with this fix:
 Since it's not clear to me what other problems there are by uninstalling Cortana, I personally prefer the `Win+<key>` workaround.
 
 
+## Not a Workaround / Fix
+Lenovo has released Synaptics ThinkPad UltraNav Driver 19.0.17.77 (2016-03-04) which [claims](https://download.lenovo.com/pccbbs/mobiles/n1cgx21w.txt) to "Fixed an issue where middle button click opened Cortana".  Importantly, this also causes scrolling using the middle mouse bottom to no longer work as [reported by several](https://forums.lenovo.com/t5/ThinkPad-T400-T500-and-newer-T/T460s-Middle-button-keeps-opening-Cortana/m-p/3314561/highlight/true#M108863).  I have tried this, but it makes sense given that the middle mouse button generates key code sequence `Win + S` - it sounds like Lenovo has simply disabled the middle mouse button completely.  Could someone please confirm this by checking with [KeyCodes](http://delphiforfun.org/programs/utilities/KeyCodes.htm#Download) (see below).
+
+
 ## Troubleshooting
 Using the [KeyCodes](http://delphiforfun.org/programs/utilities/KeyCodes.htm#Download) software, I found that when I click the middle mouse button on my Thinkpad X1 Carbon (2016) the following key code sequence is generated:
 
@@ -49,4 +53,4 @@ This is seen when the `Win+<key>` feature is disabled in Windows (the above work
 
 which is probably because the Explorer grabs the other two (and opens Cortana).
 
-I observed this with Windows 10 Pro (x64) with Synaptics 19.0.17.43 (2015-11-19).
+I observed this with Windows 10 Pro (x64) with Synaptics ThinkPad UltraNav Driver 19.0.17.43 (2015-11-19).
