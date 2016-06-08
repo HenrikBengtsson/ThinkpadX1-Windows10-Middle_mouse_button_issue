@@ -12,14 +12,16 @@ Unfortunately, this feature clashes with Windows 10 Cortana on my fresh Thinkpad
 ### Workaround \#1 - Disable Win + S (recommended)
 It turns out that the middle mouse button on Thinkpads generates the equivalent key presses as `Win + S`, which is also the sequence that opens Cortana on Windows 10.  I've created a AutoHotKey script that simply consumes this key sequence and sends it to nirvana.  Luckily, the scrolling works just fine anyways.  To apply this fix:
 
-1. Download and run [Windows10-WinS-disable.exe](https://github.com/HenrikBengtsson/ThinkpadX1-Windows10-Middle_mouse_button_issue/blob/master/Windows10-WinS-disable.exe?raw=true). It should work immediately.
+1. Download and run [Windows10-WinS-disable.exe](https://github.com/HenrikBengtsson/ThinkpadX1-Windows10-Middle_mouse_button_issue/blob/master/Windows10-WinS-disable.exe?raw=true).  You should see it working immediately.
 
 To make this run each time Windows starts, add/drag it to Start menu -> All Programs -> Startup (open via `Win + R` and `shell:Common Startup`).
 
-If you don't trust the above executable, you can compile it yourself from my [Windows10-WinS-disable.ahk](https://raw.githubusercontent.com/HenrikBengtsson/ThinkpadX1-Windows10-Middle_mouse_button_issue/master/Windows10-WinS-disable.ahk?token=ABir0oHYfPlL-13ADUXLfCxWDImbVB7Kks5XYR66wA%3D%3D) the script using [AutoHotkey](https://www.autohotkey.com/).
-
 Know problems with this fix:
 * `Win + S` for opening Cortana no longer works.
+
+
+BTW, if you don't trust the above executable, you can compile it yourself from my [Windows10-WinS-disable.ahk](https://raw.githubusercontent.com/HenrikBengtsson/ThinkpadX1-Windows10-Middle_mouse_button_issue/master/Windows10-WinS-disable.ahk?token=ABir0oHYfPlL-13ADUXLfCxWDImbVB7Kks5XYR66wA%3D%3D) the script using [AutoHotkey](https://www.autohotkey.com/).
+
 
 
 ### Workaround \#2 - Disable Win + \<key\> in Explorer
